@@ -1,0 +1,292 @@
+body {
+    background-image: url("../images/bg_4.jpg.webp");
+    background-attachment: fixed;
+    /* font-family: 'Great Vibes', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 100vh;
+}
+
+.header .swiper {
+    height: 80%;
+}
+
+.header .slider-bg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header .slider-bg span {
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    color: #c49b63;
+    margin-bottom: 2.5rem;
+}
+
+.header .slider-bg h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #FFF;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.header .slider-bg p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #777777
+}
+
+.header .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #c49b63;
+}
+
+.header-details {
+    height: 20%;
+    padding: 2rem 0;
+}
+
+.header-details i {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #c49b63;
+}
+
+.header-details span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.header-details p {
+    font-size: 16px;
+    color: #777777;
+    margin-top: 1rem;
+}
+
+.about {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.about img {
+    width: 100%;
+    min-height: 600px;
+}
+
+.about span {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    color: #c49b63;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #FFF;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 2.5rem;
+    margin-top: -2rem;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #777777
+}
+
+.about .about-bg {
+    background-color: #00000061;
+    padding: 2rem;
+    position: relative;
+    top: 3rem;
+    left: -5rem;
+}
+
+.order {
+    padding: 4rem 0;
+    background-color: #c49b63;
+}
+
+.order .easy {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.order i {
+    font-size: 45px;
+    margin-bottom: 2rem;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    border-radius: 3px;
+}
+
+.order h2 {
+    font-size: 26px;
+}
+
+.order p {
+    font-size: 16px;
+}
+
+.menu {
+    padding: 4rem 0;
+}
+
+.menu_div span {
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    color: #c49b63;
+}
+
+.menu_div h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #FFF;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: -2rem;
+}
+
+.menu_div p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #777777;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu .menu_div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.menu .nav-tabs {
+    border: none;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.menu .nav-tabs .nav-link {
+    color: #FFF;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.menu .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #c49b63;
+    border-color: #c49b63;
+}
+
+.drink {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.drink img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.drink h3 {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.drink h3 span {
+    color: #c49b63;
+}
+
+.drink p {
+    color: #777777;
+    font-size: 16px;
+}
+
+.more {
+    background-color: transparent;
+    border: 1px solid #c49b63;
+    padding: .7rem 2.5rem;
+    color: #c49b63;
+    font-size: 18px;
+    margin-top: 3rem;
+    transition: all .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 100%;
+    }
+    .header .slider-bg {
+        min-height: 600px;
+    }
+    .about .about-bg {
+        position: unset;
+        margin-top: 2rem;
+    }
+    .menu_div p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+}

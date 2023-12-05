@@ -1,0 +1,138 @@
+.footer {
+    background-color: #231F20;
+    padding: 3rem 0rem;
+}
+
+.footer .nav-logo {
+    margin: 0;
+}
+
+.footer .nav-logo img {
+    width: 170px;
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    color: #848282;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.footer p a {
+    color: #F16219;
+    text-decoration: underline;
+    /* padding-bottom: 0.3rem; */
+}
+
+.footer h2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+}
+
+.footer .footer-links ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer .footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer .footer-links ul li a {
+    color: #848282;
+}
+
+.footer .form-group {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer .form-group .form-control {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    padding: 0 1rem;
+    outline: none;
+    box-shadow: none;
+}
+
+.footer .arrow-left {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F16219;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.footer .arrow-left i {
+    color: #FFF;
+    font-size: 18px;
+}
+
+.request {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+.request:hover {
+    color: #FFFFFF;
+}
+
+.request i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F16219;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    margin-right: 1rem;
+    flex: none;
+}
+
+.copy-right {
+    background-color: #1A1617;
+    padding: .8rem 0;
+}
+
+.copy-right p {
+    color: #F16219;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.copy-right-div {
+    color: #F16219;
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.copy-right-div a {
+    color: #F16219;
+    text-decoration: none;
+}

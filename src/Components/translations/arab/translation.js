@@ -1,0 +1,18 @@
+export const TRANSLATIONS_ar = {
+  home: "الرئيسية",
+  Products: "المنتجات",
+  Services: "الخدمات",
+  Contact: "تواصل معنا",
+  About: "عنا",
+  welcome: "مرحبا",
+  slider_1_h2: "Creamy Hot and Ready to Serve",
+  slider_1_p: "A small river named Dude flows by their place and supplies it with the necessary regelialia.",
+  slider_2_h2: "Amazing Taste & Beautiful Place",
+  slider_2_p: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  slider_3_h2: "The Best Coffee Testing Experience",
+  slider_3_p: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  phone_dis: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+  map_dis: "203 Fake St. Mountain View, San Francisco, California, USA",
+  clock_dis: "24 Hours",
+  lang: "EN",
+};

@@ -1,0 +1,34 @@
+.ar {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+.en {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.en.footer .request i {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.en.footer i {
+    transform: rotate(180deg);
+}
+
+.ar.about .about-bg {
+    background-color: #00000061;
+    padding: 2rem;
+    position: relative;
+    top: 3rem;
+    right: -5rem;
+    left: unset;
+}
+
+@media screen and (max-width: 768px) {
+
+    .en .about-div {
+        padding: 0rem;
+    }
+}
